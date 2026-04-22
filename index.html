@@ -1,12 +1,1508 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Test Home</title>
+    <title>Malika Djaidi - Développeuse Web & Ingénieure Réseau</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a test HTML page for my GitHub repository.</p>
+<body>
+   <!-- Floating Logo Badge -->
+   <div class="floating-logo-badge">
+       <div class="badge-container">
+           <img  src="logo.png" alt="Selakhi IT" class="badge-logo">
+           <div class="badge-tooltip">
+               <div class="tooltip-company">Selakhi IT</div>
+               <div class="tooltip-tagline">Informatique & Technologies ( mointiner ici c'est une page instagramme pour tous informatique ) </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- Navigation Menu (Top Right) -->
+   <nav class="floating-nav">
+       <button class="nav-toggle" id="navToggle">
+           <span class="nav-toggle-line"></span>
+           <span class="nav-toggle-line"></span>
+           <span class="nav-toggle-line"></span>
+       </button>
+       
+       <div class="nav-menu" id="navMenu">
+           <div class="nav-menu-header">
+               <img src="logo.png" alt="Selakhi IT" class="nav-menu-logo">
+               <div class="nav-menu-title">
+                   <h3>Selakhi IT</h3>
+                   <p>Malika Djaidi</p>
+               </div>
+           </div>
+           
+           <div class="nav-links">
+               <a href="#expertise" class="nav-menu-link">
+                   <span class="link-icon">🎯</span>
+                   <span class="link-text">Expertise</span>
+               </a>
+               <a href="#projets" class="nav-menu-link">
+                   <span class="link-icon">💼</span>
+                   <span class="link-text">Projets</span>
+               </a>
+               <a href="#processus" class="nav-menu-link">
+                   <span class="link-icon">⚡</span>
+                   <span class="link-text">Processus</span>
+               </a>
+               <a href="#contact" class="nav-menu-link">
+                   <span class="link-icon">📬</span>
+                   <span class="link-text">Contact</span>
+               </a>
+           </div>
+           
+           <div class="nav-menu-footer">
+               <a href="#contact" class="nav-cta-btn">
+                   <span>Démarrer un projet</span>
+                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                       <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                   </svg>
+               </a>
+               <div class="nav-social-links">
+                   <a href="https://www.linkedin.com/in/djaidi-malika" target="_blank" class="nav-social">💼</a>
+                   <a href="https://github.com/malika" target="_blank" class="nav-social">💻</a>
+                   <a href="https://wa.me/213656831798" target="_blank" class="nav-social">💬</a>
+                   <a href="mailto:djaidimalika002@gmail.com" class="nav-social">✉️</a>
+               </div>
+           </div>
+       </div>
+       
+       <div class="nav-overlay" id="navOverlay"></div>
+   </nav>
+
+   
+    <section class="hero">
+
+
+        <!-- Animated Background -->
+        <div class="gradient-bg"></div>
+        <div class="code-grid"></div>
+        
+        <!-- Floating Code Symbols -->
+        <div class="code-float">&lt;/&gt;</div>
+        <div class="code-float">{ }</div>
+        <div class="code-float">[ ]</div>
+        <div class="code-float">=&gt;</div>
+            
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <!-- Left Content -->
+            <div class="hero-left">
+                <!-- Status Badge -->
+                <div class="status-badge">
+                    <div class="status-dot"></div>
+                    <span>Disponible pour de nouveaux projets</span>
+                </div>
+
+                <!-- Main Title -->
+                <h1 class="hero-title">
+                    Développeuse Web &<br>
+                    <span class="gradient-text">Ingénieure Réseau</span>
+                </h1>
+
+                <!-- Role Pills -->
+                <div class="role-pills">
+                    <span class="pill">💻 Full Stack Dev</span>
+                    <span class="pill">🌐 Réseau & Cloud</span>
+                    <span class="pill">🔬 Recherche IEEE</span>
+                </div>
+
+                <!-- Description -->
+                <p class="hero-description">
+                    Je crée des <strong>expériences web modernes</strong> et des <strong>infrastructures réseau robustes</strong>. 
+                    De WordPress à la configuration Cisco, du développement Full Stack à la recherche IoT publiée à <strong>IEEE EDiS 2024</strong>, 
+                    je transforme des concepts techniques en solutions digitales performantes.
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="cta-buttons">
+                    <a href="#projets" class="btn btn-primary">
+                        <span>Voir mes projets</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Travaillons ensemble</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M17 3L3 10L8.5 12.5L11 18L17 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Stats -->
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Sites Web Créés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">CCNA</span>
+                        <span class="stat-label">Certifiée Cisco</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">IEEE</span>
+                        <span class="stat-label">Publication 2024</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Content - Code Window -->
+            <div class="hero-right">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dot dot-red"></div>
+                        <div class="window-dot dot-yellow"></div>
+                        <div class="window-dot dot-green"></div>
+                        <span class="window-title">malika-portfolio.jsx</span>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line">
+                            <span class="line-number">1</span>
+                            <span class="code-text"><span class="keyword">import</span> <span class="variable">React</span> <span class="keyword">from</span> <span class="string">'react'</span>;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">2</span>
+                            <span class="code-text"></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">3</span>
+                            <span class="code-text"><span class="keyword">const</span> <span class="function">Developer</span> = () => {</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">4</span>
+                            <span class="code-text">  <span class="keyword">const</span> skills = [</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">5</span>
+                            <span class="code-text">    <span class="string">'JavaScript'</span>,</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">6</span>
+                            <span class="code-text">    <span class="string">'Python'</span>,</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">7</span>
+                            <span class="code-text">    <span class="string">'WordPress'</span>,</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">8</span>
+                            <span class="code-text">    <span class="string">'Cisco CCNA'</span>,</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">9</span>
+                            <span class="code-text">    <span class="string">'Wordpress'</span></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">10</span>
+                            <span class="code-text">  ];</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">11</span>
+                            <span class="code-text"></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">12</span>
+                            <span class="code-text">  <span class="keyword">return</span> (</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">13</span>
+                            <span class="code-text">    <span class="comment">// Innovation meets code</span></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">14</span>
+                            <span class="code-text">    &lt;<span class="function">Solution</span> <span class="variable">impact</span>=<span class="string">"high"</span> /&gt;<span class="cursor-blink"></span></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">15</span>
+                            <span class="code-text">  );</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">16</span>
+                            <span class="code-text">};</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Floating Skill Cards -->
+                <div class="skill-card">
+                    <div class="skill-icon">W</div>
+                    <div class="skill-info">
+                        <h4>WordPress Expert</h4>
+                        <p>10+ sites créés</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <div class="skill-info">
+                        <h4>Network Engineer</h4>
+                        <p>Cisco CCNA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Section Expertise -->
+    <section class="expertise-section" id="expertise">
+        <!-- Background Circles -->
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+
+        <div class="expertise-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-label">🎯 Mon Expertise</span>
+                <h2 class="section-title">Des compétences techniques solides</h2>
+                <p class="section-subtitle">
+                    Une double expertise unique qui combine développement web moderne et ingénierie réseau avancée
+                </p>
+            </div>
+
+            <!-- Expertise Cards Grid -->
+            <div class="expertise-grid">
+                <!-- Card 1: Développement Web -->
+                <div class="expertise-card">
+                    <div class="card-content">
+                        <div class="card-icon">💻</div>
+                        <h3 class="card-title">Développement Web Full Stack</h3>
+                        <p class="card-description">
+                            Création de sites web modernes et applications performantes. Expertise WordPress avec 7+ projets livrés, 
+                            développement custom et intégration d'APIs.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Ingénierie Réseau -->
+                <div class="expertise-card">
+                    <div class="card-content">
+                        <div class="card-icon">🌐</div>
+                        <h3 class="card-title">Ingénierie Réseau & Cloud</h3>
+                        <p class="card-description">
+                            Conception et administration d'infrastructures réseau LAN/WAN sécurisées. 
+                            Certifiée Cisco CCNA avec expertise en routage, switching et sécurité réseau.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Cisco CCNA</span>
+                            <span class="tech-tag">TCP/IP</span>
+                            <span class="tech-tag">VLAN</span>
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">Windows Server</span>
+                            <span class="tech-tag">DNS/DHCP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Développement Logiciel -->
+                <div class="expertise-card">
+                    <div class="card-content">
+                        <div class="card-icon">⚙️</div>
+                        <h3 class="card-title">Développement Logiciel & IoT</h3>
+                        <p class="card-description">
+                            Développement d'applications desktop et mobiles. Recherche en IoT avec publication 
+                            IEEE EDiS 2024 sur l'Internet des Véhicules (IoV).
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">SQL Server</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highlight Stats -->
+            <div class="highlight-stats">
+                <div class="stat-box">
+                    <div class="stat-icon">🚀</div>
+                    <span class="stat-number">7+</span>
+                    <div class="stat-label">Sites Web Livrés</div>
+                    <div class="stat-sublabel">WordPress & Custom Dev</div>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-icon">🎓</div>
+                    <span class="stat-number">CCNA</span>
+                    <div class="stat-label">Certification Cisco</div>
+                    <div class="stat-sublabel">Niveaux 1, 2, 3</div>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-icon">📚</div>
+                    <span class="stat-number">IEEE</span>
+                    <div class="stat-label">Publication Recherche</div>
+                    <div class="stat-sublabel">Conference EDiS 2024</div>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-icon">💼</div>
+                    <span class="stat-number">3+</span>
+                    <div class="stat-label">Langages Maîtrisés</div>
+                    <div class="stat-sublabel">FR, EN, AR</div>
+                </div>
+            </div>
+
+            <!-- CTA Banner -->
+            <div class="cta-banner">
+                <div class="cta-content">
+                    <h3 class="cta-title">Vous avez un projet en tête ?</h3>
+                    <p class="cta-description">
+                        Site web, infrastructure réseau, ou application sur mesure : 
+                        discutons de vos besoins et transformons vos idées en réalité.
+                    </p>
+                    <a href="#contact" class="cta-button">
+                        <span>Démarrer un projet</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- Section Portfolio -->
+    <section class="portfolio-section" id="projets">
+        <!-- Animated Background -->
+        <div class="animated-grid"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+
+        <div class="portfolio-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-label">💼 Mon Portfolio</span>
+                <h2 class="section-title">Projets Web Réalisés</h2>
+                <p class="section-subtitle">
+                    Une sélection de sites web et applications que j'ai conçus et développés pour des clients variés
+                </p>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="filter-tabs">
+                <button class="filter-btn active">Tous les projets</button>
+                <button class="filter-btn">WordPress</button>
+                <button class="filter-btn">E-commerce</button>
+                <button class="filter-btn">Corporate</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Project 1: Kost Groupe -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">WordPress</span>
+                            <span class="project-tag">Corporate</span>
+                        </div>
+                        <!-- Remplacer par vraie image -->
+                        <img src="screencapture-kostgroupe-2026-03-28-18_18_14.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 01</span>
+                        <h3 class="project-title">Kost Groupe</h3>
+                        <p class="project-description">
+                            Site corporate professionnel pour un groupe industriel. Design moderne avec animations fluides et architecture responsive.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Elementor</span>
+                            <span class="tech-badge">SEO</span>
+                            <span class="tech-badge">Responsive</span>
+                        </div>
+                        <a href="https://kostgroupe.com/" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Groupe BJV -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">WordPress</span>
+                            <span class="project-tag">Corporate</span>
+                        </div>
+                        <img src="screencapture-groupebjv-2026-03-28-17_35_22.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                      
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 02</span>
+                        <h3 class="project-title">Groupe BJV</h3>
+                        <p class="project-description">
+                            Plateforme web élégante pour groupe d'entreprises. Interface intuitive avec navigation optimisée et contenu structuré.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Custom Theme</span>
+                            <span class="tech-badge">Multi-langue</span>
+                        </div>
+                        <a href="https://groupebjv.com/" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Kost Academy -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">E-learning</span>
+                            <span class="project-tag">WordPress</span>
+                        </div>
+                        <img src="kostacademy.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 03</span>
+                        <h3 class="project-title">Kost Academy</h3>
+                        <p class="project-description">
+                            Plateforme e-learning complète avec système de gestion de cours, inscriptions et espace membre personnalisé.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">LMS</span>
+                            <span class="tech-badge">WooCommerce</span>
+                            <span class="tech-badge">Member Area</span>
+                        </div>
+                        <a href="https://kostacademy.com/" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Experter -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">AI</span>
+                            <span class="project-tag">Tech</span>
+                        </div>
+                        <img src="ai.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                       
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 04</span>
+                        <h3 class="project-title">AI Experter</h3>
+                        <p class="project-description">
+                            Site vitrine pour plateforme d'intelligence artificielle. Design futuriste avec animations interactives.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">GHL</span>
+                            <span class="tech-badge">Custom Dev</span>
+                            <span class="tech-badge">Animations</span>
+                        </div>
+                        <a href="https://ai.experter.ca/" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5: APG Accreditation -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">Corporate</span>
+                            <span class="project-tag">Professional</span>
+                        </div>
+                        <img src="apga.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 05</span>
+                        <h3 class="project-title">APG Accreditation</h3>
+                        <p class="project-description">
+                            Site professionnel pour organisme d'accréditation. Architecture claire avec formulaires de contact avancés.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Forms</span>
+                            <span class="tech-badge">Security</span>
+                        </div>
+                        <a href="https://apgaccreditation.com/" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Trips Une Evasion -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">Travel</span>
+                            <span class="project-tag">Booking</span>
+                        </div>
+                        <img src="trip.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 06</span>
+                        <h3 class="project-title">Trips Une Évasion</h3>
+                        <p class="project-description">
+                            Plateforme de réservation de voyages avec galerie photos, système de réservation et blog intégré.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Booking System</span>
+                            <span class="tech-badge">Gallery</span>
+                        </div>
+                        <a href="https://tripsunevasion.com/" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            
+
+            <!-- Project 7: strategix immigration -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">Travel</span>
+                            <span class="project-tag">Booking</span>
+                        </div>
+                        <img src="strategix_immigration.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 07</span>
+                        <h3 class="project-title">strategix immigration </h3>
+                        <p class="project-description">
+                            Plateforme de réservation de voyages avec galerie photos, système de réservation et blog intégré.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Booking System</span>
+                            <span class="tech-badge">Gallery</span>
+                        </div>
+                        <a href="" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            
+                 <!-- Project 8: cbta  -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">Travel</span>
+                            <span class="project-tag">Booking</span>
+                        </div>
+                        <img src="cbta.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 08</span>
+                        <h3 class="project-title">cbta </h3>
+                        <p class="project-description">
+                            Plateforme de réservation de voyages avec galerie photos, système de réservation et blog intégré.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Booking System</span>
+                            <span class="tech-badge">Gallery</span>
+                        </div>
+                        <a href="" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 9: KOST FORMATION   -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">Travel</span>
+                            <span class="project-tag">Booking</span>
+                        </div>
+                        <img src="kost.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 09</span>
+                        <h3 class="project-title">Kost </h3>
+                        <p class="project-description">
+                            Plateforme de réservation de voyages avec galerie photos, système de réservation et blog intégré.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Booking System</span>
+                            <span class="tech-badge">Gallery</span>
+                        </div>
+                        <a href="" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 10: bodu   -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">Travel</span>
+                            <span class="project-tag">Booking</span>
+                        </div>
+                        <img src="budo.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 10</span>
+                        <h3 class="project-title">budo </h3>
+                        <p class="project-description">
+                            Plateforme de réservation de voyages avec galerie photos, système de réservation et blog intégré.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Booking System</span>
+                            <span class="tech-badge">Gallery</span>
+                        </div>
+                        <a href="" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+<!-- Project 11: strategix APP   -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">Travel</span>
+                            <span class="project-tag">Booking</span>
+                        </div>
+                        <img src="strategix_app.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 11</span>
+                        <h3 class="project-title">Strategixs App  </h3>
+                        <p class="project-description">
+                            Plateforme de réservation de voyages avec galerie photos, système de réservation et blog intégré.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Booking System</span>
+                            <span class="tech-badge">Gallery</span>
+                        </div>
+                        <a href="" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+<!-- Project 12: actor formation    -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">Travel</span>
+                            <span class="project-tag">Booking</span>
+                        </div>
+                        <img src="actor.png" style="width: 100%; height: 100%; background: linear-gradient(135deg, #7c3aed, #a855f7); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 800;">
+                          
+                        </img>
+                        
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">PROJECT 12</span>
+                        <h3 class="project-title">Actor  </h3>
+                        <p class="project-description">
+                            Plateforme de réservation de voyages avec galerie photos, système de réservation et blog intégré.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">WordPress</span>
+                            <span class="tech-badge">Booking System</span>
+                            <span class="tech-badge">Gallery</span>
+                        </div>
+                        <a href="" target="_blank" class="project-link">
+                            Visiter le site
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Load More Button 
+            <div class="load-more-container">
+                <button class="load-more-btn">
+                    <span>Voir plus de projets</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>-->
+            </div>
+        </div>
+    </section>
+
+     <!-- Section Processus -->
+    <section class="process-section" id="processus">
+        <!-- Animated Background -->
+        <div class="lines-bg">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="process-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-label">⚡ Mon Processus</span>
+                <h2 class="section-title">Comment je transforme vos idées en réalité</h2>
+                <p class="section-subtitle">
+                    Une méthodologie éprouvée en 4 étapes pour garantir le succès de votre projet web ou réseau
+                </p>
+            </div>
+
+            <!-- Process Timeline -->
+            <div class="process-timeline">
+                <!-- Central Line -->
+                <div class="timeline-line"></div>
+
+                <!-- Step 1: Découverte -->
+                <div class="process-step">
+                    <div class="step-icon">
+                        <span class="icon-emoji">🔍</span>
+                    </div>
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <span class="step-label">Étape 1</span>
+                        <h3 class="step-title">Découverte & Analyse</h3>
+                        <p class="step-description">
+                            Je commence par comprendre vos besoins, vos objectifs et votre audience cible. 
+                            Cette phase est cruciale pour définir une stratégie claire et efficace.
+                        </p>
+                        <div class="step-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Analyse détaillée de vos besoins et contraintes</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Étude de la concurrence et benchmarking</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Définition des objectifs et KPIs du projet</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2: Conception -->
+                <div class="process-step">
+                    <div class="step-icon">
+                        <span class="icon-emoji">✏️</span>
+                    </div>
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <span class="step-label">Étape 2</span>
+                        <h3 class="step-title">Conception & Stratégie</h3>
+                        <p class="step-description">
+                            Je crée l'architecture de votre solution : maquettes UI/UX pour sites web ou 
+                            schémas réseau pour infrastructures. Tout est validé avant développement.
+                        </p>
+                        <div class="step-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Wireframes et maquettes interactives</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Architecture technique et choix des technologies</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Planning détaillé et estimation des délais</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3: Développement -->
+                <div class="process-step">
+                    <div class="step-icon">
+                        <span class="icon-emoji">⚙️</span>
+                    </div>
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <span class="step-label">Étape 3</span>
+                        <h3 class="step-title">Développement & Configuration</h3>
+                        <p class="step-description">
+                            Place au code ! Je développe votre site web ou configure votre infrastructure réseau 
+                            en suivant les meilleures pratiques et standards de l'industrie.
+                        </p>
+                        <div class="step-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Code propre et documenté suivant les standards</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Tests réguliers et validation continue</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Communication transparente sur l'avancement</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4: Livraison -->
+                <div class="process-step">
+                    <div class="step-icon">
+                        <span class="icon-emoji">🚀</span>
+                    </div>
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <span class="step-label">Étape 4</span>
+                        <h3 class="step-title">Livraison & Support</h3>
+                        <p class="step-description">
+                            Déploiement en production avec tests finaux, formation à l'utilisation, 
+                            et support post-livraison pour garantir votre autonomie et satisfaction.
+                        </p>
+                        <div class="step-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Mise en ligne optimisée et sécurisée</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Formation complète à la gestion de votre solution</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                        <path d="M2 6L5 9L10 3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <span class="feature-text">Support technique et maintenance disponibles</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="process-cta">
+                <div class="cta-box">
+                    <div class="cta-content">
+                        <h3 class="cta-title">Prêt à démarrer votre projet ?</h3>
+                        <p class="cta-description">
+                            Que ce soit pour un site web, une infrastructure réseau ou une application sur mesure, 
+                            je m'engage à transformer votre vision en une solution concrète et performante.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn btn-primary">
+                                <span>Lancer mon projet</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                            <a href="#expertise" class="btn btn-secondary">
+                                <span>Voir mes compétences</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Section Contact -->
+    <section class="contact-section" id="contact">
+        <!-- Animated Particles -->
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+
+        <!-- Gradient Orbs -->
+        <div class="contact-orb contact-orb-1"></div>
+        <div class="contact-orb contact-orb-2"></div>
+
+        <div class="contact-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-label">📬 Prenons Contact</span>
+                <h2 class="section-title">Discutons de votre projet</h2>
+                <p class="section-subtitle">
+                    Besoin d'un site web, d'une infrastructure réseau ou d'une application ? 
+                    Je suis là pour transformer vos idées en réalité.
+                </p>
+            </div>
+
+            <!-- Contact Grid -->
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3 class="info-title">Restons en contact</h3>
+                        <p class="info-text">
+                            Que vous ayez un projet concret ou simplement une question, 
+                            n'hésitez pas à me contacter. Je réponds généralement sous 24h.
+                        </p>
+
+                        <div class="contact-methods">
+                            <!-- Email -->
+                            <a href="mailto:djaidimalika002@gmail.com" class="contact-method">
+                                <div class="method-icon">📧</div>
+                                <div class="method-content">
+                                    <h4>Email</h4>
+                                    <p>djaidimalika002@gmail.com</p>
+                                </div>
+                            </a>
+
+                            <!-- WhatsApp -->
+                            <a href="https://wa.me/213656831798" target="_blank" class="contact-method">
+                                <div class="method-icon">💬</div>
+                                <div class="method-content">
+                                    <h4>WhatsApp</h4>
+                                    <p>+213 656 831 798</p>
+                                </div>
+                            </a>
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/djaidi-malika" target="_blank" class="contact-method">
+                                <div class="method-icon">💼</div>
+                                <div class="method-content">
+                                    <h4>LinkedIn</h4>
+                                    <p>DJAIDI MALIKA</p>
+                                </div>
+                            </a>
+
+                            <!-- Location -->
+                            <div class="contact-method">
+                                <div class="method-icon">📍</div>
+                                <div class="method-content">
+                                    <h4>Localisation</h4>
+                                    <p>Oran, Algérie</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/djaidi-malika" target="_blank" class="social-link">
+                                🔗
+                            </a>
+                            <a href="https://github.com/malika" target="_blank" class="social-link">
+                                💻
+                            </a>
+                            <a href="https://wa.me/213656831798" target="_blank" class="social-link">
+                                💬
+                            </a>
+                            <a href="mailto:djaidimalika002@gmail.com" class="social-link">
+                                ✉️
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h3 class="form-title">Envoyez-moi un message</h3>
+                    <p class="form-subtitle">Remplissez ce formulaire et je vous répondrai rapidement</p>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Nom complet <span>*</span></label>
+                                <input type="text" class="form-input" placeholder="Votre nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Email <span>*</span></label>
+                                <input type="email" class="form-input" placeholder="votre@email.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Téléphone</label>
+                                <input type="tel" class="form-input" placeholder="+213 XXX XXX XXX">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Type de projet <span>*</span></label>
+                                <select class="form-input" required>
+                                    <option value="">Sélectionnez...</option>
+                                    <option value="web">Site Web</option>
+                                    <option value="reseau">Infrastructure Réseau</option>
+                                    <option value="app">Application</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Budget estimé</label>
+                            <select class="form-input">
+                                <option value="">Sélectionnez...</option>
+                                <option value="small">Moins de 50 000 DA</option>
+                                <option value="medium">50 000 - 150 000 DA</option>
+                                <option value="large">150 000 - 300 000 DA</option>
+                                <option value="enterprise">Plus de 300 000 DA</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Message <span>*</span></label>
+                            <textarea class="form-textarea" placeholder="Décrivez votre projet en quelques mots..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Envoyer le message</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M17 3L3 10L8.5 12.5L11 18L17 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+
+                        <div class="success-message" id="successMessage">
+                            ✓ Message envoyé avec succès ! Je vous répondrai très bientôt.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <h3>Malika Djaidi</h3>
+                    <p>
+                        Ingénieure en informatique passionnée par le développement web et l'ingénierie réseau. 
+                        Je transforme vos idées en solutions digitales performantes.
+                    </p>
+                    <div class="footer-badge">
+                        <div class="status-dot"></div>
+                        <span>Disponible pour projets</span>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <div class="footer-links">
+                        <a href="#expertise" class="footer-link">
+                            <span>→</span> Expertise
+                        </a>
+                        <a href="#projets" class="footer-link">
+                            <span>→</span> Projets
+                        </a>
+                        <a href="#processus" class="footer-link">
+                            <span>→</span> Processus
+                        </a>
+                        <a href="#contact" class="footer-link">
+                            <span>→</span> Contact
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">
+                            <span>→</span> Développement Web
+                        </a>
+                        <a href="#" class="footer-link">
+                            <span>→</span> Infrastructure Réseau
+                        </a>
+                        <a href="#" class="footer-link">
+                            <span>→</span> Applications Mobiles
+                        </a>
+                        <a href="#" class="footer-link">
+                            <span>→</span> Conseil & Formation
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:djaidimalika002@gmail.com" class="footer-link">
+                            <span>✉️</span> Email
+                        </a>
+                        <a href="https://wa.me/213656831798" class="footer-link">
+                            <span>💬</span> WhatsApp
+                        </a>
+                        <a href="https://www.linkedin.com/in/djaidi-malika" class="footer-link">
+                            <span>💼</span> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2026 <a href="#">Malika Djaidi</a>. Tous droits réservés. Fait avec ❤️ en Algérie.
+                </p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/djaidi-malika" target="_blank" class="footer-social-link">
+                        🔗
+                    </a>
+                    <a href="https://github.com/malika" target="_blank" class="footer-social-link">
+                        💻
+                    </a>
+                    <a href="https://wa.me/213656831798" target="_blank" class="footer-social-link">
+                        💬
+                    </a>
+                    <a href="mailto:djaidimalika002@gmail.com" class="footer-social-link">
+                        ✉️
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    
 </body>
+<script>
+    
+// Attendre que le DOM soit complètement chargé
+document.addEventListener('DOMContentLoaded', function() {
+    'use strict';
+
+    // ============================================
+    // NAVIGATION MENU
+    // ============================================
+    function initNavigation() {
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        const navOverlay = document.getElementById('navOverlay');
+        const navLinks = document.querySelectorAll('.nav-menu-link');
+        
+        console.log('Nav Toggle:', navToggle);
+        console.log('Nav Menu:', navMenu);
+        console.log('Nav Overlay:', navOverlay);
+        
+        if (!navToggle || !navMenu || !navOverlay) {
+            console.error('Éléments de navigation non trouvés!');
+            return;
+        }
+        
+        // Fonction pour fermer le menu
+        function closeMenu() {
+            navToggle.classList.remove('active');
+            navMenu.classList.remove('active');
+            navOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        
+        // Toggle menu au clic sur le bouton
+        navToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            console.log('Bouton cliqué!');
+            
+            const isActive = navMenu.classList.contains('active');
+            
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+            navOverlay.classList.toggle('active');
+            
+            document.body.style.overflow = isActive ? '' : 'hidden';
+        });
+        
+        // Fermer au clic sur overlay
+        navOverlay.addEventListener('click', closeMenu);
+        
+        // Fermer au clic sur les liens
+        navLinks.forEach(function(link) {
+            link.addEventListener('click', closeMenu);
+        });
+        
+        // Fermer avec la touche Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+                closeMenu();
+            }
+        });
+    }
+
+    // ============================================
+    // PROJECTS FILTER
+    // ============================================
+    function initProjectsFilter() {
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        if (filterBtns.length === 0 || projectCards.length === 0) {
+            console.log('Filtres ou cartes de projets non trouvés');
+            return;
+        }
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filter = btn.textContent.toLowerCase().trim();
+
+                // Filter logic
+                projectCards.forEach(card => {
+                    if (filter === 'tous les projets' || filter === 'tous') {
+                        card.style.display = 'block';
+                    } else {
+                        // Vous pouvez ajouter des attributs data-category sur vos cartes
+                        // et filtrer selon ces catégories
+                        const category = card.getAttribute('data-category');
+                        if (category && category.toLowerCase().includes(filter)) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    }
+                });
+            });
+        });
+    }
+
+    // ============================================
+    // LOAD MORE BUTTON
+    // ============================================
+    function initLoadMore() {
+        const loadMoreBtn = document.querySelector('.load-more-btn');
+        
+        if (!loadMoreBtn) {
+            console.log('Bouton "Load More" non trouvé');
+            return;
+        }
+
+        loadMoreBtn.addEventListener('click', () => {
+            alert('Charger plus de projets - À implémenter selon vos besoins');
+            // Vous pouvez ajouter votre logique ici pour charger plus de projets
+        });
+    }
+
+    // ============================================
+    // CONTACT FORM
+    // ============================================
+    function initContactForm() {
+        const contactForm = document.getElementById('contactForm');
+        const successMessage = document.getElementById('successMessage');
+        
+        if (!contactForm) {
+            console.log('Formulaire de contact non trouvé');
+            return;
+        }
+
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Afficher le message de succès
+            if (successMessage) {
+                successMessage.style.display = 'block';
+            }
+            
+            // Reset form après 5 secondes
+            setTimeout(() => {
+                contactForm.reset();
+                if (successMessage) {
+                    successMessage.style.display = 'none';
+                }
+            }, 5000);
+        });
+    }
+
+    // ============================================
+    // SCROLL TO TOP BUTTON
+    // ============================================
+    function initScrollToTop() {
+        const scrollTopBtn = document.getElementById('scrollTop');
+        
+        if (!scrollTopBtn) {
+            console.log('Bouton scroll to top non trouvé');
+            return;
+        }
+
+        // Afficher/masquer le bouton selon le scroll
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        // Scroll vers le haut au clic
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+
+    // ============================================
+    // SMOOTH SCROLL FOR ANCHOR LINKS
+    // ============================================
+    function initSmoothScroll() {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                
+                // Ignorer les liens vides ou juste "#"
+                if (!href || href === '#') {
+                    return;
+                }
+                
+                e.preventDefault();
+                const target = document.querySelector(href);
+                
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    }
+
+    // ============================================
+    // INITIALISATION DE TOUTES LES FONCTIONNALITÉS
+    // ============================================
+    initNavigation();
+    initProjectsFilter();
+    initLoadMore();
+    initContactForm();
+    initScrollToTop();
+    initSmoothScroll();
+
+    console.log('Toutes les fonctionnalités initialisées avec succès!');
+});
+
+</script>
 </html>
