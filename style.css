@@ -2537,8 +2537,6 @@
 
 .cv-float-btn {
   position: fixed;   /* reste visible en scrollant */
-  bottom: 32px;
-  right: 32px;
   z-index: 9999;     /* au-dessus de tout */
   display: flex;
   align-items: center;
